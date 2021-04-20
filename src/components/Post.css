@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+.post {
+    margin: 4px;
+    width: 30vw;
+}
+
+.post__userInfo {
+    display: flex;
+    align-items: center;
+}
+.post__userInfo > * {
+    margin: 0 2px 0 0
+}
+
+.post__cardfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post___likeIcon-on {
+    color: red;
+}
